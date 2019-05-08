@@ -1,0 +1,24 @@
+<ion-card color="dark">
+
+  <ion-card-header>
+    <ion-card-subtitle>
+
+      <span class=text-primary> {{ number }}. </span>
+      <span class="new-source-name"> {{ new.source.name }} </span>
+      <div class="new-more">
+        <ion-button (click)="showMore()" fill="clear">
+          <ion-icon slot="icon-only" name="more"></ion-icon>
+        </ion-button>
+      </div>
+
+    </ion-card-subtitle>
+    <ion-card-title (click)="openNew()"> {{ new.title }} </ion-card-title>
+  </ion-card-header>
+
+  <ion-img *ngIf="new.urlToImage" [src]="new.urlToImage" (click)="openNew()" class="animated fadeIn faster"></ion-img>
+
+  <ion-card-content>
+    {{ new.description }}
+  </ion-card-content>
+
+</ion-card>

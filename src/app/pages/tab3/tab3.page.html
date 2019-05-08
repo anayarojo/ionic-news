@@ -1,0 +1,18 @@
+<ion-header no-border>
+  <ion-toolbar color="dark">
+    <ion-title>
+      Favorites
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+
+
+  <div class="news-not-found" *ngIf="localStorageService.news.length === 0">
+    <ion-label>News not found</ion-label>
+  </div>
+
+  <app-news *ngIf="localStorageService.news.length > 0" [news]="localStorageService.news" inFavoritesView="false"></app-news>
+  
+</ion-content>
