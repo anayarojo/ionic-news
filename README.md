@@ -2,7 +2,7 @@
 ## Ionic News
 Aplicación de noticias hecha con ionic 4
 
-![Ionic 4 ─ News ─ Preview 1](wiki/img/Ionic 4 ─ New ─ Preview 1.PNG)
+![Ionic 4 ─ News ─ Preview 1](https://raw.githubusercontent.com/anayarojo/ionic-news/master/wiki/img/Ionic%204%20%E2%94%80%20New%20%E2%94%80%20Preview%202.PNG)
 
 ### Commands
 
